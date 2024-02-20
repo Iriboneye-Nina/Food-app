@@ -131,6 +131,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-bottom: 30px;
 }
 .About-line h1{
     padding-top: 20px;
@@ -150,21 +151,41 @@ header {
 }
 .footer-section{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
 }
 .column-one{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+   
 }
-
- /* div h1{
+.midle-footer p{
+  font-size: 15px;
+ 
+}
+#midde-footer img{
+  width: 100px;
+}
+.populor p{
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: center;
-} */
-
-
+    gap: 2rem;
+}
+.populor-flex{
+    flex-direction: row;
+    line-height-step: var(rem);
+}
+.background1{
+    background-color: rgb(19, 18, 18);
+    color: white;
+}
+.background{
+    background-color: rgb(149, 138, 138);
+    color: white;
+}
 /* FOOTER SECTION  */
